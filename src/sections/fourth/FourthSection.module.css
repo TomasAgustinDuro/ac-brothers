@@ -1,0 +1,10 @@
+.OpinionContainer{
+    color: black;
+    text-align: center;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.CardContainer{
+    text-align: start;
+}

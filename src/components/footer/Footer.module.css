@@ -1,0 +1,19 @@
+.FooterContainer{
+    color: black;
+    text-align: center;
+    background-color: #304c84;
+    padding: 1em;
+    color: white;
+}
+
+.FooterContainer > * {
+    margin-bottom: .5em;
+
+}
+
+.FooterSocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}

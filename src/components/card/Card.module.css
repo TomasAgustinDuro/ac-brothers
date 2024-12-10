@@ -1,0 +1,23 @@
+.CardContainer{
+    border: solid 1px lightgrey;
+    margin: 1em auto;
+    width: 75%;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.CardContainer p {
+    color: grey;
+}
+
+.TitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.CardIcon {
+    font-size: 1.5em;
+}

@@ -1,0 +1,10 @@
+.ThirdSectionContainer {
+    color: black;
+    background-color: #D9D9D9;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.ThirdSectionContainer > * {
+    margin-bottom: 1em;
+}
