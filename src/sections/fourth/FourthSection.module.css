@@ -1,10 +1,25 @@
-.OpinionContainer{
-    color: black;
-    text-align: center;
-    padding: 1em;
-    margin: 1em auto;
+.OpinionContainer {
+  color: black;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
 }
 
-.CardContainer{
-    text-align: start;
+.CardContainer {
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .OpinionContainer {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardContainer {
+    display: flex;
+    gap: 1em;
+  }
 }

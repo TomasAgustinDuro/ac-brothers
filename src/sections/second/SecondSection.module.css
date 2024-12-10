@@ -1,12 +1,23 @@
 .ServicesContainer {
-    color: black;
-    text-align: center;
-    padding: 1em;
-    margin: 1em;
+  color: black;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.CardsContainer{
-    text-align: start;
-
+.CardsContainer {
+  text-align: start;
 }
 
+@media (min-width: 768px) {
+  .CardsContainer {
+    display: flex;
+    gap: 1em;
+    margin: auto;
+  }
+}

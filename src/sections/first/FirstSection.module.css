@@ -11,7 +11,7 @@
   background-color: white;
   border-radius: 8px;
   color: #2563eb;
-  width: 25%;
+  width: 50%;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -23,4 +23,28 @@
 .firstSectionContainer button:hover {
   background-color: transparent;
   color: white;
+}
+
+.textContainer > *{
+  margin-bottom: 1em;
+}
+
+.firstSectionContainer img {
+  width: 75%;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .firstSectionContainer {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .textContainer > * {
+    margin-bottom: 1em;
+  }
 }
