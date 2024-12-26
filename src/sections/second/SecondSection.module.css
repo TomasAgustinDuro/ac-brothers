@@ -12,6 +12,8 @@
 
 .CardsContainer {
   text-align: start;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
 @media (min-width: 768px) {
